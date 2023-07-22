@@ -1,0 +1,13 @@
+train: breast/train/images
+val: breast/valid/images
+test: breast/test/images
+
+nc: 1
+names: ['target']
+
+roboflow:
+  workspace: joseph-nelson
+  project: bccd
+  version: 3
+  license: MIT
+  url: https://universe.roboflow.com/joseph-nelson/bccd/dataset/3
